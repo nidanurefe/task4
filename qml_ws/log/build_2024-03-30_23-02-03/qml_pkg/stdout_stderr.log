@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid update_slider(QObject*)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:45:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kv[m[K’ was not declared in this scope
+   45 |     emit valChanged([01;31m[Kv[m[K);
+      |                     [01;31m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:45:10:[m[K [01;31m[Kerror: [m[K‘[01m[KvalChanged[m[K’ was not declared in this scope
+   45 |     emit [01;31m[KvalChanged[m[K(v);
+      |          [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

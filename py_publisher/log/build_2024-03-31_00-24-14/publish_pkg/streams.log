@@ -1,0 +1,25 @@
+[0.929s] Invoking command in '/home/nida/Desktop/py_publisher/src/publish_pkg': PYTHONPATH=/home/nida/Desktop/py_publisher/build/publish_pkg/prefix_override:/home/nida/Desktop/py_publisher/install/publish_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publish_pkg build --build-base /home/nida/Desktop/py_publisher/build/publish_pkg/build install --record /home/nida/Desktop/py_publisher/build/publish_pkg/install.log --single-version-externally-managed install_data
+[1.300s] running egg_info
+[1.300s] writing ../../build/publish_pkg/publish_pkg.egg-info/PKG-INFO
+[1.300s] writing dependency_links to ../../build/publish_pkg/publish_pkg.egg-info/dependency_links.txt
+[1.300s] writing entry points to ../../build/publish_pkg/publish_pkg.egg-info/entry_points.txt
+[1.300s] writing requirements to ../../build/publish_pkg/publish_pkg.egg-info/requires.txt
+[1.301s] writing top-level names to ../../build/publish_pkg/publish_pkg.egg-info/top_level.txt
+[1.302s] reading manifest file '../../build/publish_pkg/publish_pkg.egg-info/SOURCES.txt'
+[1.304s] writing manifest file '../../build/publish_pkg/publish_pkg.egg-info/SOURCES.txt'
+[1.305s] running build
+[1.305s] running build_py
+[1.305s] copying publish_pkg/publisher_node.py -> /home/nida/Desktop/py_publisher/build/publish_pkg/build/lib/publish_pkg
+[1.305s] running install
+[1.305s] running install_lib
+[1.306s] copying /home/nida/Desktop/py_publisher/build/publish_pkg/build/lib/publish_pkg/publisher_node.py -> /home/nida/Desktop/py_publisher/install/publish_pkg/lib/python3.10/site-packages/publish_pkg
+[1.307s] byte-compiling /home/nida/Desktop/py_publisher/install/publish_pkg/lib/python3.10/site-packages/publish_pkg/publisher_node.py to publisher_node.cpython-310.pyc
+[1.308s] running install_data
+[1.308s] running install_egg_info
+[1.311s] removing '/home/nida/Desktop/py_publisher/install/publish_pkg/lib/python3.10/site-packages/publish_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.311s] Copying ../../build/publish_pkg/publish_pkg.egg-info to /home/nida/Desktop/py_publisher/install/publish_pkg/lib/python3.10/site-packages/publish_pkg-0.0.0-py3.10.egg-info
+[1.311s] running install_scripts
+[1.342s] Installing publisher_node script to /home/nida/Desktop/py_publisher/install/publish_pkg/lib/publish_pkg
+[1.342s] Installing subscriber_node script to /home/nida/Desktop/py_publisher/install/publish_pkg/lib/publish_pkg
+[1.342s] writing list of installed files to '/home/nida/Desktop/py_publisher/build/publish_pkg/install.log'
+[1.359s] Invoked command in '/home/nida/Desktop/py_publisher/src/publish_pkg' returned '0': PYTHONPATH=/home/nida/Desktop/py_publisher/build/publish_pkg/prefix_override:/home/nida/Desktop/py_publisher/install/publish_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/publish_pkg build --build-base /home/nida/Desktop/py_publisher/build/publish_pkg/build install --record /home/nida/Desktop/py_publisher/build/publish_pkg/install.log --single-version-externally-managed install_data

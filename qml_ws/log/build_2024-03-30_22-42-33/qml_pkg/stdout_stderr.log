@@ -1,0 +1,39 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:36:34:[m[K [01;31m[Kerror: [m[K‘[01m[KSliderSubscriber[m[K’ was not declared in this scope
+   36 |     auto node = std::make_shared<[01;31m[KSliderSubscriber[m[K>();
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:36:51:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   36 |     auto node = [01;31m[Kstd::make_shared<SliderSubscriber>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcontainertools_impl.h:21[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydataops.h:9[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydatapointer.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qbytearray.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstringview.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qchar.h:656[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:14[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:36:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |     auto node = [01;31m[Kstd::make_shared<SliderSubscriber>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:49:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   49 |     auto subscriber = node->create_subscription<std_msgs::msg::Int32[01;31m[K>[m[K(
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:50:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   50 |         [01;35m[K"slider_topic"[m[K, 10, [qmlRoot](const std_msgs::msg::Int32::SharedPtr msg) {
+      |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:52:9:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   52 |         [01;35m[K}[m[K);
+      |         [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

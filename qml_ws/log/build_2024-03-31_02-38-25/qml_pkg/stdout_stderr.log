@@ -1,0 +1,25 @@
+[ 50%] Built target deneme
+[ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:71:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   71 |     int [01;35m[Kresult[m[K = app.exec();
+      |         [01;35m[K^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable main[0m
+[100%] Built target main
+-- Install configuration: ""
+-- Installing: /home/nida/Desktop/qml_ws/install/qml_pkg/lib/qml_pkg/main
+-- Set non-toolchain portion of runtime path of "/home/nida/Desktop/qml_ws/install/qml_pkg/lib/qml_pkg/main" to ""
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/lib/qml_pkg/deneme
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/package_run_dependencies/qml_pkg
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/parent_prefix_path/qml_pkg
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/environment/path.dsv
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.bash
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.sh
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.zsh
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.dsv
+-- Installing: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/package.dsv
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/packages/qml_pkg
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/cmake/qml_pkgConfig.cmake
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/cmake/qml_pkgConfig-version.cmake
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/package.xml

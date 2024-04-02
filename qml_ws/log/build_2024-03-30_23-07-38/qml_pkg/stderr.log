@@ -1,0 +1,13 @@
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:73:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ was not declared in this scope
+   73 |     QObject::connect(&[01;31m[Ksubscriber[m[K, &SliderSubscriber::topicCallback,
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:73:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid SliderSubscriber::topicCallback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’ is private within this context
+   73 |     QObject::connect(&subscriber, &SliderSubscriber::[01;31m[KtopicCallback[m[K,
+      |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:35:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+   35 |     void [01;36m[KtopicCallback[m[K(const std_msgs::msg::Int32::SharedPtr msg) {
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

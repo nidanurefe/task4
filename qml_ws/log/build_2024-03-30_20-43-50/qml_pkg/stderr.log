@@ -1,0 +1,76 @@
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/publisher_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/string.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/msg/string.hpp"[m[K  // Fixed header include
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/publisher_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:15:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ does not name a type
+   15 | [01;31m[Kstd_msg[m[K::msg::Int32 SLIDER = 0;
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:17:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msg[m[K’ does not name a type
+   17 | void manage_slider(const [01;31m[Kstd_msg[m[K::msg::Int32::ConstPtr &msg){
+      |                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:17:38:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   17 | void manage_slider(const std_msg::msg[01;31m[K::[m[KInt32::ConstPtr &msg){
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:17:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   17 | void manage_slider[34m[K([m[Kconst std_msg::msg[01;31m[K:[m[K[32m[K:[m[KInt32::ConstPtr &msg){
+      |                   [34m[K~[m[K                  [01;31m[K^[m[K[32m[K~[m[K
+      |                                      [32m[K)[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:17:38:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   17 | void manage_slider(const std_msg::msg[01;31m[K::[m[KInt32::ConstPtr &msg){
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid update_slider(QObject*)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:24:56:[m[K [01;31m[Kerror: [m[K‘[01m[KSLIDER[m[K’ was not declared in this scope
+   24 |     obj->setProperty("value", QVariant(QString::number([01;31m[KSLIDER[m[K.data)));
+      |                                                        [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klogger[m[K’ was not declared in this scope
+   25 |     RCLCPP_INFO([01;31m[Klogger[m[K, "data: %d", SLIDER.data);
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     [01;31m[KRCLCPP_INFO[m[K(logger, "data: %d", SLIDER.data);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     [01;31m[KRCLCPP_INFO[m[K(logger, "data: %d", SLIDER.data);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     [01;31m[KRCLCPP_INFO[m[K(logger, "data: %d", SLIDER.data);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     [01;31m[KRCLCPP_INFO[m[K(logger, "data: %d", SLIDER.data);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:25:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     [01;31m[KRCLCPP_INFO[m[K(logger, "data: %d", SLIDER.data);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:33:64:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   33 |  auto subscriber = node->create_subscription<std_msgs::msg::[01;31m[KInt32[m[K>("slider_topic", 0, SLIDER);
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:33:90:[m[K [01;31m[Kerror: [m[K‘[01m[KSLIDER[m[K’ was not declared in this scope
+   33 | ->create_subscription<std_msgs::msg::Int32>("slider_topic", 0, [01;31m[KSLIDER[m[K);
+      |                                                                [01;31m[K^~~~~~[m[K
+
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In lambda function:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:34:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K)[m[K’ token
+   34 |     std::thread rosSpinner([&node][01;31m[K)[m[K{
+      |                                   [01;31m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:34:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   34 |     std::thread rosSpinner([&node])[01;31m[K{[m[K
+      |                                    [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

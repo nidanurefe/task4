@@ -1,0 +1,33 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In constructor ‘[01m[KSliderSubscriber::SliderSubscriber()[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   20 |         [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Int32>("slider_topic", 10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   21 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(500),
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:22:42:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishRandomNumber[m[K’ is not a member of ‘[01m[KSliderSubscriber[m[K’
+   22 |             std::bind(&SliderSubscriber::[01;31m[KpublishRandomNumber[m[K, this));
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:60:53:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishedRandomNumber[m[K’ is not a member of ‘[01m[KSliderSubscriber[m[K’
+   60 |     QObject::connect(node.get(), &SliderSubscriber::[01;31m[KpublishedRandomNumber[m[K,
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kroot[m[K’ was not declared in this scope
+   61 |                      [01;31m[Kroot[m[K, [root](int randomNumber) {
+      |                      [01;31m[K^~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In lambda function:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kroot[m[K’ is not captured
+   62 |         QMetaObject::invokeMethod([01;31m[Kroot[m[K, "publishedRandomNumber",
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:61:33:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   61 |                      root, [root[01;36m[K][m[K(int randomNumber) {
+      |                                 [01;36m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:61:22:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>root[m[K’ declared here
+   61 |                      [01;36m[Kroot[m[K, [root](int randomNumber) {
+      |                      [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

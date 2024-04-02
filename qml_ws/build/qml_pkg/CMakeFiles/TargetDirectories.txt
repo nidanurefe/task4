@@ -1,0 +1,11 @@
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/uninstall.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/qml_pkg_uninstall.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/main.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/deneme.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/test.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/edit_cache.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/rebuild_cache.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/list_install_components.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/install.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/install/local.dir
+/home/nida/Desktop/qml_ws/build/qml_pkg/CMakeFiles/install/strip.dir

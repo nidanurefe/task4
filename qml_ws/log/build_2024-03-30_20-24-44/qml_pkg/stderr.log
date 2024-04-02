@@ -1,0 +1,39 @@
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/publisher_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/string.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/msg/string.hpp"[m[K  // Fixed header include
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/publisher_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In constructor ‘[01m[KSubscriberNode::SubscriberNode()[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:34:17:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KQPushButton*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   34 |         connect([01;31m[KstartButton_[m[K, &QPushButton::clicked, this, &SubscriberNode::startButtonClicked);
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+      |                 [01;31m[K|[m[K
+      |                 [01;31m[KQPushButton*[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:34:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kvoid (QAbstractButton::*)(bool)[m[K’ to ‘[01m[Kconst sockaddr*[m[K’
+   34 |         connect(startButton_, [01;31m[K&QPushButton::clicked[m[K, this, &SubscriberNode::startButtonClicked);
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                               [01;31m[K|[m[K
+      |                               [01;31m[Kvoid (QAbstractButton::*)(bool)[m[K
+In file included from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:11[m[K:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/../../../../../../../usr/include/x86_64-linux-gnu/sys/socket.h:126:52:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint connect(int, const sockaddr*, socklen_t)[m[K’
+  126 | extern int connect (int __fd, __CONST_SOCKADDR_ARG [01;36m[K_[m[K_addr, socklen_t __len);
+      |                                                    [01;36m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:35:17:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[KQPushButton*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   35 |         connect([01;31m[KstopButton_[m[K, &QPushButton::clicked, this, &SubscriberNode::stopButtonClicked);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+      |                 [01;31m[K|[m[K
+      |                 [01;31m[KQPushButton*[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:35:30:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kvoid (QAbstractButton::*)(bool)[m[K’ to ‘[01m[Kconst sockaddr*[m[K’
+   35 |         connect(stopButton_, [01;31m[K&QPushButton::clicked[m[K, this, &SubscriberNode::stopButtonClicked);
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                              [01;31m[K|[m[K
+      |                              [01;31m[Kvoid (QAbstractButton::*)(bool)[m[K
+In file included from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:11[m[K:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/../../../../../../../usr/include/x86_64-linux-gnu/sys/socket.h:126:52:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint connect(int, const sockaddr*, socklen_t)[m[K’
+  126 | extern int connect (int __fd, __CONST_SOCKADDR_ARG [01;36m[K_[m[K_addr, socklen_t __len);
+      |                                                    [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,21 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/deneme.dir/src/deneme.cpp.o[0m
+[ 75%] Built target main
+[100%] [32m[1mLinking CXX executable deneme[0m
+[100%] Built target deneme
+-- Install configuration: ""
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/lib/qml_pkg/main
+-- Installing: /home/nida/Desktop/qml_ws/install/qml_pkg/lib/qml_pkg/deneme
+-- Set non-toolchain portion of runtime path of "/home/nida/Desktop/qml_ws/install/qml_pkg/lib/qml_pkg/deneme" to ""
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/package_run_dependencies/qml_pkg
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/parent_prefix_path/qml_pkg
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/environment/path.dsv
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.bash
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.sh
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.zsh
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.dsv
+-- Installing: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/package.dsv
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/packages/qml_pkg
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/cmake/qml_pkgConfig.cmake
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/cmake/qml_pkgConfig-version.cmake
+-- Up-to-date: /home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/package.xml

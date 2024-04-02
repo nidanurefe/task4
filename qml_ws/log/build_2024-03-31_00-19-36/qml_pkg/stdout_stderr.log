@@ -1,0 +1,38 @@
+[ 50%] Built target deneme
+[ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:16:16:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   16 | std_msgs::msg::[01;31m[KString[m[K SLIDER;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid update_slider(QObject*)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:24:51:[m[K [01;31m[Kerror: [m[K‘[01m[KSLIDER[m[K’ was not declared in this scope
+   24 |         obj->setProperty("value", QString::number([01;31m[KSLIDER[m[K.data));
+      |                                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K At global scope:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:33:41:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   33 | void manage_slider(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) {
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:33:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   33 | void manage_slider(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:33:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   33 | void manage_slider[34m[K([m[Kconst std_msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                   [34m[K~[m[K                                      [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                          [32m[K)[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:33:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   33 | void manage_slider(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:42:64:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   42 |     auto subscriber = node->create_subscription<std_msgs::msg::[01;31m[KString[m[K>(
+      |                                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:43:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmanage_slider[m[K’ was not declared in this scope; did you mean ‘[01m[Kupdate_slider[m[K’?
+   43 |         "slider_topic", 10, [01;31m[Kmanage_slider[m[K);
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                             [32m[Kupdate_slider[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In lambda function:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;31m[Kerror: [m[K‘[01m[KSLIDER[m[K’ was not declared in this scope
+   62 |         std::cout << "Value: " << [01;31m[KSLIDER[m[K.data << '\n';
+      |                                   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

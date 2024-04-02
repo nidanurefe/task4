@@ -1,0 +1,28 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/publisher_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/string.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/msg/string.hpp"[m[K  // Fixed header include
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/publisher_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
+Traceback (most recent call last):
+  File "/home/nida/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/nida/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/nida/.local/lib/python3.10/site-packages/cmake/__init__.py", line 43, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args, close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

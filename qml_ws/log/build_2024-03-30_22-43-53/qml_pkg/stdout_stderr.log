@@ -1,0 +1,29 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreevent.h:9[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:10[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobjectdefs.h: In instantiation of ‘[01m[Kstruct QtPrivate::HasQ_OBJECT_Macro<SliderSubscriber>[m[K’:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:218:82:[m[K   required from ‘[01m[Kstatic QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Prototype>::Object*, Func1, const typename QtPrivate::ContextTypeForFunctor<Func2>::ContextType*, Func2&&, Qt::ConnectionType) [with Func1 = void (SliderSubscriber::*)(int); Func2 = main(int, char**)::<lambda(int)>; typename QtPrivate::FunctionPointer<Prototype>::Object = SliderSubscriber; typename QtPrivate::ContextTypeForFunctor<Func2>::ContextType = QObject][m[K’
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:68:21:[m[K   required from here
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobjectdefs.h:576:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacall[m[K’ is not a member of ‘[01m[KSliderSubscriber[m[K’
+  576 |         enum { Value =  sizeof(test([01;31m[K&Object::qt_metacall[m[K)) == sizeof(int) };
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h: In instantiation of ‘[01m[Kstatic QMetaObject::Connection QObject::connect(const typename QtPrivate::FunctionPointer<Prototype>::Object*, Func1, const typename QtPrivate::ContextTypeForFunctor<Func2>::ContextType*, Func2&&, Qt::ConnectionType) [with Func1 = void (SliderSubscriber::*)(int); Func2 = main(int, char**)::<lambda(int)>; typename QtPrivate::FunctionPointer<Prototype>::Object = SliderSubscriber; typename QtPrivate::ContextTypeForFunctor<Func2>::ContextType = QObject][m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:68:21:[m[K   required from here
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:218:82:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: No Q_OBJECT in the class with the signal
+  218 |         static_assert(QtPrivate::HasQ_OBJECT_Macro<typename SignalType::Object>::[01;31m[KValue[m[K,
+      |                                                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:218:82:[m[K [01;36m[Knote: [m[K‘[01m[KQtPrivate::HasQ_OBJECT_Macro<SliderSubscriber>::Value[m[K’ evaluates to false
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:240:41:[m[K [01;31m[Kerror: [m[K‘[01m[KstaticMetaObject[m[K’ is not a member of ‘[01m[KQtPrivate::FunctionPointer<void (SliderSubscriber::*)(int)>::Object[m[K’ {aka ‘[01m[KSliderSubscriber[m[K’}
+  240 |                            type, types, [01;31m[K&SignalType::Object::staticMetaObject[m[K);
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

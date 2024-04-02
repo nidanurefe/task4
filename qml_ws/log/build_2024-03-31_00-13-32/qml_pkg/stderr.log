@@ -1,0 +1,1282 @@
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In lambda function:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:32:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’})
+   62 |         [32m[Kstd::cout << "Value: "[m[K [01;31m[K<<[m[K [34m[KSLIDER[m[K << '\n';
+      |         [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~[m[K
+      |                   [32m[K|[m[K               [34m[K|[m[K
+      |                   [32m[K|[m[K               [34m[Kstd_msgs::msg::Int32 {aka std_msgs::msg::Int32_<std::allocator<void> >}[m[K
+      |                   [32m[Kstd::basic_ostream<char>[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  108 |       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:108:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’}
+  108 |       operator<<([01;36m[K__ostream_type& (*__pf)(__ostream_type&)[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+  117 |       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:117:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+  117 |       operator<<([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  127 |       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:127:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+  127 |       operator<<([01;36m[Kios_base& (*__pf) (ios_base&)[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  166 |       [01;36m[Koperator[m[K<<(long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:166:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Klong int[m[K’
+  166 |       operator<<([01;36m[Klong __n[m[K)
+      |                  [01;36m[K~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:170:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Klong unsigned int[m[K’
+  170 |       operator<<([01;36m[Kunsigned long __n[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  174 |       [01;36m[Koperator[m[K<<(bool __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:174:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kbool[m[K’
+  174 |       operator<<([01;36m[Kbool __n[m[K)
+      |                  [01;36m[K~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+   91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/ostream.tcc:92:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kshort int[m[K’
+   92 |     operator<<([01;36m[Kshort __n[m[K)
+      |                [01;36m[K~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:181:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kshort unsigned int[m[K’
+  181 |       operator<<([01;36m[Kunsigned short __n[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+  105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/ostream.tcc:106:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kint[m[K’
+  106 |     operator<<([01;36m[Kint __n[m[K)
+      |                [01;36m[K~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:192:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kunsigned int[m[K’
+  192 |       operator<<([01;36m[Kunsigned int __n[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  201 |       [01;36m[Koperator[m[K<<(long long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:201:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Klong long int[m[K’
+  201 |       operator<<([01;36m[Klong long __n[m[K)
+      |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:205:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Klong long unsigned int[m[K’
+  205 |       operator<<([01;36m[Kunsigned long long __n[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  220 |       [01;36m[Koperator[m[K<<(double __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:220:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kdouble[m[K’
+  220 |       operator<<([01;36m[Kdouble __f[m[K)
+      |                  [01;36m[K~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  224 |       [01;36m[Koperator[m[K<<(float __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:224:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kfloat[m[K’
+  224 |       operator<<([01;36m[Kfloat __f[m[K)
+      |                  [01;36m[K~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  232 |       [01;36m[Koperator[m[K<<(long double __f)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:232:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Klong double[m[K’
+  232 |       operator<<([01;36m[Klong double __f[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+  245 |       [01;36m[Koperator[m[K<<(const void* __p)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:245:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kconst void*[m[K’
+  245 |       operator<<([01;36m[Kconst void* __p[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/usr/include/c++/11/ostream:250:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t][m[K’
+  250 |       [01;36m[Koperator[m[K<<(nullptr_t)
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:250:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::nullptr_t[m[K’
+  250 |       operator<<([01;36m[Knullptr_t[m[K)
+      |                  [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+  119 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/ostream.tcc:120:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+  120 |     operator<<([01;36m[K__streambuf_type* __sbin[m[K)
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:389:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Enum> QDataStream& operator<<(QDataStream&, QFlags<T>)[m[K’
+  389 | inline QDataStream &[01;36m[Koperator[m[K<<(QDataStream &s, QFlags<Enum> e)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:389:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’ is not derived from ‘[01m[KQFlags<T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:403:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<std::is_enum<_Tp>::value, QDataStream&> operator<<(QDataStream&, const T&)[m[K’
+  403 | [01;36m[Koperator[m[K<<(QDataStream &s, const T &t)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:403:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::operator<< <std::char_traits<char> >(std::cout, ((const char*)"Value: "))[m[K’ (type ‘[01m[Kstd::basic_ostream<char>[m[K’) to type ‘[01m[KQDataStream&[m[K’
+   62 |         [01;36m[Kstd::cout << "Value: "[m[K << SLIDER << '\n';
+      |         [01;36m[K~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:420:63:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDataStreamIfHasOStreamOperatorsContainer<QList<T>, T> operator<<(QDataStream&, const QList<T>&)[m[K’
+  420 | line QDataStreamIfHasOStreamOperatorsContainer<QList<T>, T> [01;36m[Koperator[m[K<<(QDataStream &s, const QList<T> &v)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:420:63:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QList<T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:432:62:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDataStreamIfHasOStreamOperatorsContainer<QSet<T>, T> operator<<(QDataStream&, const QSet<T>&)[m[K’
+  432 | nline QDataStreamIfHasOStreamOperatorsContainer<QSet<T>, T> [01;36m[Koperator[m[K<<(QDataStream &s, const QSet<T> &set)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:432:62:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QSet<T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:445:73:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDataStreamIfHasOStreamOperatorsContainer<QHash<Key, T>, Key, T> operator<<(QDataStream&, const QHash<Key, T>&)[m[K’
+  445 | StreamIfHasOStreamOperatorsContainer<QHash<Key, T>, Key, T> [01;36m[Koperator[m[K<<(QDataStream &s, const QHash<Key, T> &hash)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:445:73:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QHash<Key, T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:457:78:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDataStreamIfHasOStreamOperatorsContainer<QMultiHash<Key, T>, Key, T> operator<<(QDataStream&, const QMultiHash<Key, T>&)[m[K’
+  457 | mIfHasOStreamOperatorsContainer<QMultiHash<Key, T>, Key, T> [01;36m[Koperator[m[K<<(QDataStream &s, const QMultiHash<Key, T> &hash)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:457:78:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QMultiHash<Key, T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:469:72:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDataStreamIfHasOStreamOperatorsContainer<QMap<Key, T>, Key, T> operator<<(QDataStream&, const QMap<Key, T>&)[m[K’
+  469 | aStreamIfHasOStreamOperatorsContainer<QMap<Key, T>, Key, T> [01;36m[Koperator[m[K<<(QDataStream &s, const QMap<Key, T> &map)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:469:72:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QMap<Key, T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:481:77:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDataStreamIfHasOStreamOperatorsContainer<QMultiMap<Key, T>, Key, T> operator<<(QDataStream&, const QMultiMap<Key, T>&)[m[K’
+  481 | amIfHasOStreamOperatorsContainer<QMultiMap<Key, T>, Key, T> [01;36m[Koperator[m[K<<(QDataStream &s, const QMultiMap<Key, T> &map)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:481:77:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QMultiMap<Key, T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:494:49:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2> QDataStreamIfHasOStreamOperators<T1, T2> operator<<(QDataStream&, const std::pair<_T1, _T2>&)[m[K’
+  494 | inline QDataStreamIfHasOStreamOperators<T1, T2> [01;36m[Koperator[m[K<<(QDataStream& s, const std::pair<T1, T2> &p)
+      |                                                 [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:494:49:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:296:53:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebugIfHasDebugStreamContainer<QList<T>, T> operator<<(QDebug, const QList<T>&)[m[K’
+  296 | inline QDebugIfHasDebugStreamContainer<QList<T>, T> [01;36m[Koperator[m[K<<(QDebug debug, const QList<T> &vec)
+      |                                                     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:296:53:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QList<T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:302:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, long long int P> QDebugIfHasDebugStream<T> operator<<(QDebug, const QVarLengthArray<T, Prealloc>&)[m[K’
+  302 | inline QDebugIfHasDebugStream<T> [01;36m[Koperator[m[K<<(QDebug debug, const QVarLengthArray<T, P> &vec)
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:302:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QVarLengthArray<T, Prealloc>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:308:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class Alloc> QDebugIfHasDebugStream<T> operator<<(QDebug, const std::vector<_Tp, _Alloc>&)[m[K’
+  308 | inline QDebugIfHasDebugStream<T> [01;36m[Koperator[m[K<<(QDebug debug, const std::vector<T, Alloc> &vec)
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:308:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:314:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class Alloc> QDebugIfHasDebugStream<T> operator<<(QDebug, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+  314 | inline QDebugIfHasDebugStream<T> [01;36m[Koperator[m[K<<(QDebug debug, const std::list<T, Alloc> &vec)
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:314:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:320:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebugIfHasDebugStream<T> operator<<(QDebug, std::initializer_list<_Tp>)[m[K’
+  320 | inline QDebugIfHasDebugStream<T> [01;36m[Koperator[m[K<<(QDebug debug, std::initializer_list<T> list)
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:320:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::initializer_list<_Tp>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:326:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T, class Compare, class Alloc> QDebugIfHasDebugStream<Key, T> operator<<(QDebug, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+  326 | inline QDebugIfHasDebugStream<Key, T> [01;36m[Koperator[m[K<<(QDebug debug, const std::map<Key, T, Compare, Alloc> &map)
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:326:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:332:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T, class Compare, class Alloc> QDebugIfHasDebugStream<Key, T> operator<<(QDebug, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+  332 | inline QDebugIfHasDebugStream<Key, T> [01;36m[Koperator[m[K<<(QDebug debug, const std::multimap<Key, T, Compare, Alloc> &map)
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:332:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:338:62:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDebugIfHasDebugStreamContainer<QMap<Key, T>, Key, T> operator<<(QDebug, const QMap<Key, T>&)[m[K’
+  338 | nline QDebugIfHasDebugStreamContainer<QMap<Key, T>, Key, T> [01;36m[Koperator[m[K<<(QDebug debug, const QMap<Key, T> &map)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:338:62:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QMap<Key, T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:344:67:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDebugIfHasDebugStreamContainer<QMultiMap<Key, T>, Key, T> operator<<(QDebug, const QMultiMap<Key, T>&)[m[K’
+  344 |  QDebugIfHasDebugStreamContainer<QMultiMap<Key, T>, Key, T> [01;36m[Koperator[m[K<<(QDebug debug, const QMultiMap<Key, T> &map)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:344:67:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QMultiMap<Key, T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:350:63:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDebugIfHasDebugStreamContainer<QHash<Key, T>, Key, T> operator<<(QDebug, const QHash<Key, T>&)[m[K’
+  350 | line QDebugIfHasDebugStreamContainer<QHash<Key, T>, Key, T> [01;36m[Koperator[m[K<<(QDebug debug, const QHash<Key, T> &hash)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:350:63:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QHash<Key, T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:356:68:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Key, class T> QDebugIfHasDebugStreamContainer<QMultiHash<Key, T>, Key, T> operator<<(QDebug, const QMultiHash<Key, T>&)[m[K’
+  356 | QDebugIfHasDebugStreamContainer<QMultiHash<Key, T>, Key, T> [01;36m[Koperator[m[K<<(QDebug debug, const QMultiHash<Key, T> &hash)
+      |                                                             [01;36m[K^~~~~~~~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:356:68:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QMultiHash<Key, T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:362:39:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T1, class T2> QDebugIfHasDebugStream<Key, T> operator<<(QDebug, const std::pair<_T1, _T2>&)[m[K’
+  362 | inline QDebugIfHasDebugStream<T1, T2> [01;36m[Koperator[m[K<<(QDebug debug, const std::pair<T1, T2> &pair)
+      |                                       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:362:39:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:370:52:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebugIfHasDebugStreamContainer<QSet<T>, T> operator<<(QDebug, const QSet<T>&)[m[K’
+  370 | inline QDebugIfHasDebugStreamContainer<QSet<T>, T> [01;36m[Koperator[m[K<<(QDebug debug, const QSet<T> &set)
+      |                                                    [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:370:52:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QSet<T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:376:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebugIfHasDebugStream<T> operator<<(QDebug, const QContiguousCache<T>&)[m[K’
+  376 | inline QDebugIfHasDebugStream<T> [01;36m[Koperator[m[K<<(QDebug debug, const QContiguousCache<T> &cache)
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:376:34:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QContiguousCache<T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:432:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebug operator<<(QDebug, const QSharedPointer<T>&)[m[K’
+  432 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QSharedPointer<T> &ptr)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:432:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QSharedPointer<T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:442:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class Tag> QDebug operator<<(QDebug, const QTaggedPointer<T, Tag>&)[m[K’
+  442 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QTaggedPointer<T, Tag> &ptr)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:442:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QTaggedPointer<T, Tag>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:476:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename std::enable_if<QtPrivate::IsQEnumHelper<T>::Value, QDebug>::type operator<<(QDebug, T)[m[K’
+  476 | [01;36m[Koperator[m[K<<(QDebug dbg, T value)
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:476:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::operator<< <std::char_traits<char> >(std::cout, ((const char*)"Value: "))[m[K’ (type ‘[01m[Kstd::basic_ostream<char>[m[K’) to type ‘[01m[KQDebug[m[K’
+   62 |         [01;36m[Kstd::cout << "Value: "[m[K << SLIDER << '\n';
+      |         [01;36m[K~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:488:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class A, class B, class C, class D> QDebug operator<<(QDebug, T)[m[K’
+  488 | inline QDebug [01;36m[Koperator[m[K<<(QDebug dbg, T value)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:488:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:484:10:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+  484 |          [01;31m[Ktypename[m[K A = typename std::enable_if<std::is_enum<T>::value, void>::type,
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:522:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> QDebug operator<<(QDebug, const QFlags<T>&)[m[K’
+  522 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, const QFlags<T> &flags)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:522:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst QFlags<T>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qglobal.h:14[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qtguiglobal.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/cstddef:126:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)[m[K’
+  126 |     [01;36m[Koperator[m[K<<(byte __b, _IntegerType __shift) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/cstddef:126:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::operator<< <std::char_traits<char> >(std::cout, ((const char*)"Value: "))[m[K’ (type ‘[01m[Kstd::basic_ostream<char>[m[K’) to type ‘[01m[Kstd::byte[m[K’
+   62 |         [01;36m[Kstd::cout << "Value: "[m[K << SLIDER << '\n';
+      |         [01;36m[K~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/11/streambuf:41[m[K,
+                 from [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:35[m[K,
+                 from [01m[K/usr/include/c++/11/iterator:66[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcontainertools_impl.h:20[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydataops.h:9[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydatapointer.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qbytearray.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstringview.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qchar.h:656[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:14[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)[m[K’
+  667 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/string_view:667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/11/streambuf:41[m[K,
+                 from [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:35[m[K,
+                 from [01m[K/usr/include/c++/11/iterator:66[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcontainertools_impl.h:20[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydataops.h:9[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydatapointer.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qbytearray.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstringview.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qchar.h:656[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:14[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6531 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6531:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/streambuf:41[m[K,
+                 from [01m[K/usr/include/c++/11/bits/streambuf_iterator.h:35[m[K,
+                 from [01m[K/usr/include/c++/11/iterator:66[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcontainertools_impl.h:20[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydataops.h:9[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydatapointer.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qbytearray.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstringview.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qchar.h:656[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:14[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+  279 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/system_error:279:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kconst std::error_code&[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcontainertools_impl.h:21[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydataops.h:9[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qarraydatapointer.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qbytearray.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstringview.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qchar.h:656[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:14[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+   70 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:6[m[K:
+[01m[K/usr/include/c++/11/thread:92:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)[m[K’
+   92 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/thread:92:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kstd::thread::id[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+  513 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:513:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’)
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+  518 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:518:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kchar[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+  524 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:524:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kchar[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+  530 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:530:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Ksigned char[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+  535 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:535:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kunsigned char[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+  594 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:594:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/ostream:829[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+  321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kconst char*[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+  611 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:611:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kconst char*[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+  624 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:624:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kconst signed char*[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+  629 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:629:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kconst unsigned char*[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)[m[K’
+  750 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/c++/11/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std_msgs::msg::Int32_<std::allocator<void> >][m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K   required from here
+[01m[K/usr/include/c++/11/ostream:750:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)[m[K’
+   79 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kstd::_Resetiosflags[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)[m[K’
+  109 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kstd::_Setiosflags[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)[m[K’
+  143 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kstd::_Setbase[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)[m[K’
+  178 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::_Setfill<_CharT>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)[m[K’
+  208 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kstd::_Setprecision[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)[m[K’
+  238 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[KSLIDER[m[K’ (type ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’}) to type ‘[01m[Kstd::_Setw[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/iomanip:311:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)[m[K’
+  311 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::_Put_money<_MoneyT>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:15[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:8[m[K:
+[01m[K/usr/include/c++/11/iomanip:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)[m[K’
+  363 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/iomanip:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:62:35:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::_Put_time<_CharT>[m[K’
+   62 |         std::cout << "Value: " << [01;36m[KSLIDER[m[K << '\n';
+      |                                   [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:14[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qchar.h:622:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, QChar)[m[K’
+  622 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, QChar);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qchar.h:622:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  622 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, QChar);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstringview.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qchar.h:656[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:14[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qbytearray.h:634:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QByteArray&)[m[K’
+  634 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QByteArray &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qbytearray.h:634:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  634 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QByteArray &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:1353:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QString&)[m[K’
+ 1353 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QString &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:1353:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+ 1353 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QString &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmetatype.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:554:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, QKeyCombination)[m[K’
+  554 | inline QDataStream &[01;36m[Koperator[m[K<<(QDataStream &s, QKeyCombination combination)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatastream.h:554:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  554 | inline QDataStream &operator<<([01;36m[KQDataStream &s[m[K, QKeyCombination combination)
+      |                                [01;36m[K~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qeventloop.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:442:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QObject*)[m[K’
+  442 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QObject *);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qobject.h:442:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  442 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QObject *);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtextstream.h:208:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQTextStream& operator<<(QTextStream&, QTextStreamFunction)[m[K’
+  208 | inline QTextStream &[01;36m[Koperator[m[K<<(QTextStream &s, QTextStreamFunction f)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtextstream.h:208:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQTextStream&[m[K’
+  208 | inline QTextStream &operator<<([01;36m[KQTextStream &s[m[K, QTextStreamFunction f)
+      |                                [01;36m[K~~~~~~~~~~~~~^[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtextstream.h:211:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQTextStream& operator<<(QTextStream&, QTextStreamManipulator)[m[K’
+  211 | inline QTextStream &[01;36m[Koperator[m[K<<(QTextStream &s, QTextStreamManipulator m)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtextstream.h:211:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQTextStream&[m[K’
+  211 | inline QTextStream &operator<<([01;36m[KQTextStream &s[m[K, QTextStreamManipulator m)
+      |                                [01;36m[K~~~~~~~~~~~~~^[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:18[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:529:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, QKeyCombination)[m[K’
+  529 | inline QDebug [01;36m[Koperator[m[K<<(QDebug debug, QKeyCombination combination)
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdebug.h:529:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  529 | inline QDebug operator<<([01;36m[KQDebug debug[m[K, QKeyCombination combination)
+      |                          [01;36m[K~~~~~~~^~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qlocale.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qvariant.h:711:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QVariant&)[m[K’
+  711 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &s, const QVariant &p);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qvariant.h:711:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  711 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &s[m[K, const QVariant &p);
+      |                                       [01;36m[K~~~~~~~~~~~~~^[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qvariant.h:725:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, QVariant::Type)[m[K’
+  725 | inline QDataStream &[01;36m[Koperator[m[K<<(QDataStream &s, const QVariant::Type p)
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qvariant.h:725:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  725 | inline QDataStream &operator<<([01;36m[KQDataStream &s[m[K, const QVariant::Type p)
+      |                                [01;36m[K~~~~~~~~~~~~~^[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qvariant.h:774:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, QVariant::Type)[m[K’
+  774 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QVariant::Type);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qvariant.h:774:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  774 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QVariant::Type);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qlocale.h:1157:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QLocale&)[m[K’
+ 1157 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QLocale &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qlocale.h:1157:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+ 1157 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QLocale &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qlocale.h:1162:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QLocale&)[m[K’
+ 1162 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QLocale &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qlocale.h:1162:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+ 1162 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QLocale &);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:12[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qpoint.h:110:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QPoint&)[m[K’
+  110 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QPoint &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qpoint.h:110:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  110 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QPoint &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qpoint.h:205:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QPoint&)[m[K’
+  205 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QPoint &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qpoint.h:205:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  205 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QPoint &);
+      |                                 [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qpoint.h:309:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QPointF&)[m[K’
+  309 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QPointF &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qpoint.h:309:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  309 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QPointF &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qpoint.h:400:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QPointF&)[m[K’
+  400 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug d, const QPointF &p);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qpoint.h:400:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  400 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug d[m[K, const QPointF &p);
+      |                                 [01;36m[K~~~~~~~^[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:9[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmargins.h:94:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QMargins&)[m[K’
+   94 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QMargins &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmargins.h:94:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+   94 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QMargins &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmargins.h:266:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QMargins&)[m[K’
+  266 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QMargins &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmargins.h:266:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  266 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QMargins &);
+      |                                 [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmargins.h:344:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QMarginsF&)[m[K’
+  344 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QMarginsF &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmargins.h:344:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  344 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QMarginsF &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmargins.h:500:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QMarginsF&)[m[K’
+  500 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QMarginsF &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qmargins.h:500:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  500 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QMarginsF &);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:107:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QSize&)[m[K’
+  107 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QSize &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:107:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  107 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QSize &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:202:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QSize&)[m[K’
+  202 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QSize &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:202:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  202 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QSize &);
+      |                                 [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:297:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QSizeF&)[m[K’
+  297 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QSizeF &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:297:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  297 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QSizeF &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:398:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QSizeF&)[m[K’
+  398 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QSizeF &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qsize.h:398:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  398 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QSizeF &);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlengine.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlapplicationengine.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/QQmlApplicationEngine:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:2[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qurl.h:313:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QUrl&)[m[K’
+  313 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QUrl &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qurl.h:313:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  313 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QUrl &);
+      |                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qurl.h:318:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QUrl&)[m[K’
+  318 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QUrl &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qurl.h:318:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  318 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QUrl &);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtimezone.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qjsengine.h:12[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlengine.h:10[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlapplicationengine.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/QQmlApplicationEngine:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:2[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:545:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, QDate)[m[K’
+  545 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, QDate);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:182:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  182 |     friend Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, QDate);
+      |                                                  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:547:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, QTime)[m[K’
+  547 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, QTime);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:248:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  248 |     friend Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, QTime);
+      |                                                  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:549:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QDateTime&)[m[K’
+  549 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QDateTime &);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:534:50:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  534 |     friend Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QDateTime &);
+      |                                                  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:554:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, QDate)[m[K’
+  554 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, QDate);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:554:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  554 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, QDate);
+      |                                 [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:555:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, QTime)[m[K’
+  555 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, QTime);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:555:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  555 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, QTime);
+      |                                 [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:556:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QDateTime&)[m[K’
+  556 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QDateTime &);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qdatetime.h:539:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  539 |     friend Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QDateTime &);
+      |                                            [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qjsengine.h:12[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlengine.h:10[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlapplicationengine.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/QQmlApplicationEngine:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:2[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtimezone.h:252:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QTimeZone&)[m[K’
+  252 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &ds, const QTimeZone &tz);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtimezone.h:234:63:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  234 |   friend Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &ds[m[K, const QTimeZone &tz);
+      |                                                [01;36m[K~~~~~~~~~~~~~^~[m[K
+
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtimezone.h:257:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QTimeZone&)[m[K’
+  257 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug dbg, const QTimeZone &tz);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtimezone.h:237:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  237 |     friend Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug dbg[m[K, const QTimeZone &tz);
+      |                                            [01;36m[K~~~~~~~^~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qjsengine.h:13[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlengine.h:10[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlapplicationengine.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/QQmlApplicationEngine:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:2[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qjsvalue.h:140:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QJSValue&)[m[K’
+  140 | Q_QML_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &, const QJSValue &);
+      |                           [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qjsvalue.h:140:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+  140 | Q_QML_EXPORT QDataStream &operator<<([01;36m[KQDataStream &[m[K, const QJSValue &);
+      |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qversionnumber.h:15[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlprivate.h:28[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqml.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlengine.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlapplicationengine.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/QQmlApplicationEngine:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:2[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtyperevision.h:25:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QTypeRevision&)[m[K’
+   25 | Q_CORE_EXPORT QDataStream& [01;36m[Koperator[m[K<<(QDataStream &out, const QTypeRevision &revision);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtyperevision.h:25:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+   25 | Q_CORE_EXPORT QDataStream& operator<<([01;36m[KQDataStream &out[m[K, const QTypeRevision &revision);
+      |                                       [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtyperevision.h:169:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QTypeRevision&)[m[K’
+  169 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QTypeRevision &revision);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qtyperevision.h:169:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  169 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QTypeRevision &revision);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlprivate.h:28[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqml.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlengine.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlapplicationengine.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/QQmlApplicationEngine:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:2[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qversionnumber.h:24:28:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDataStream& operator<<(QDataStream&, const QVersionNumber&)[m[K’
+   24 | Q_CORE_EXPORT QDataStream &[01;36m[Koperator[m[K<<(QDataStream &out, const QVersionNumber &version);
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qversionnumber.h:24:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDataStream&[m[K’
+   24 | Q_CORE_EXPORT QDataStream &operator<<([01;36m[KQDataStream &out[m[K, const QVersionNumber &version);
+      |                                       [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qversionnumber.h:309:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QVersionNumber&)[m[K’
+  309 | Q_CORE_EXPORT QDebug [01;36m[Koperator[m[K<<(QDebug, const QVersionNumber &version);
+      |                      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qversionnumber.h:309:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+  309 | Q_CORE_EXPORT QDebug operator<<([01;36m[KQDebug[m[K, const QVersionNumber &version);
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlengine.h:12[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlapplicationengine.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/QQmlApplicationEngine:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:2[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlerror.h:56:21:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQDebug operator<<(QDebug, const QQmlError&)[m[K’
+   56 | QDebug Q_QML_EXPORT [01;36m[Koperator[m[K<<(QDebug debug, const QQmlError &error);
+      |                     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtQml/qqmlerror.h:56:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[KQDebug[m[K’
+   56 | QDebug Q_QML_EXPORT operator<<([01;36m[KQDebug debug[m[K, const QQmlError &error);
+      |                                [01;36m[K~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

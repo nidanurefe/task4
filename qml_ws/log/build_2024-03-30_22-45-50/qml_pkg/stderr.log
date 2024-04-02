@@ -1,0 +1,24 @@
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In constructor ‘[01m[KSliderSubscriber::SliderSubscriber()[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:23:68:[m[K [01;35m[Kwarning: [m[Kbase ‘[01m[Krclcpp::Node[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   23 |     SliderSubscriber() : Node("slider_subscriber"), QObject(nullptr[01;35m[K)[m[K {
+      |                                                                    [01;35m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:23:68:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:23:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   23 |     [01;35m[KSliderSubscriber[m[K() : Node("slider_subscriber"), QObject(nullptr) {
+      |     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/main.dir/src/main.cpp.o: in function `main':
+main.cpp:(.text+0x524): undefined reference to `SliderSubscriber::sliderValueChanged(int)'
+/usr/bin/ld: CMakeFiles/main.dir/src/main.cpp.o: in function `QMetaObject::Connection QObject::connect<void (SliderSubscriber::*)(int), main::{lambda(int)#1}>(QtPrivate::FunctionPointer<void (SliderSubscriber::*)(int)>::Object const*, void (SliderSubscriber::*)(int), QtPrivate::ContextTypeForFunctor<main::{lambda(int)#1}, void>::ContextType const*, main::{lambda(int)#1}&&, Qt::ConnectionType)':
+main.cpp:(.text+0x736): undefined reference to `SliderSubscriber::staticMetaObject'
+/usr/bin/ld: CMakeFiles/main.dir/src/main.cpp.o: in function `SliderSubscriber::SliderSubscriber()':
+main.cpp:(.text._ZN16SliderSubscriberC2Ev[_ZN16SliderSubscriberC5Ev]+0x101): undefined reference to `vtable for SliderSubscriber'
+/usr/bin/ld: main.cpp:(.text._ZN16SliderSubscriberC2Ev[_ZN16SliderSubscriberC5Ev]+0x116): undefined reference to `vtable for SliderSubscriber'
+/usr/bin/ld: CMakeFiles/main.dir/src/main.cpp.o: in function `SliderSubscriber::topicCallback(std::shared_ptr<std_msgs::msg::Int32_<std::allocator<void> > >)':
+main.cpp:(.text._ZN16SliderSubscriber13topicCallbackESt10shared_ptrIN8std_msgs3msg6Int32_ISaIvEEEE[_ZN16SliderSubscriber13topicCallbackESt10shared_ptrIN8std_msgs3msg6Int32_ISaIvEEEE]+0x1e0): undefined reference to `SliderSubscriber::sliderValueChanged(int)'
+/usr/bin/ld: CMakeFiles/main.dir/src/main.cpp.o: in function `SliderSubscriber::~SliderSubscriber()':
+main.cpp:(.text._ZN16SliderSubscriberD2Ev[_ZN16SliderSubscriberD5Ev]+0x13): undefined reference to `vtable for SliderSubscriber'
+/usr/bin/ld: main.cpp:(.text._ZN16SliderSubscriberD2Ev[_ZN16SliderSubscriberD5Ev]+0x25): undefined reference to `vtable for SliderSubscriber'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/main.dir/build.make:169: main] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

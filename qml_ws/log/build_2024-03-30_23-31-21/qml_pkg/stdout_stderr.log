@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:47:12:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KQTimer timer[m[K’ has incomplete type and cannot be defined
+   47 |     QTimer [01;31m[Ktimer[m[K;
+      |            [01;31m[K^~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:48:38:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[KQTimer[m[K’ used in nested name specifier
+   48 |     QObject::connect(&timer,&QTimer::[01;31m[Ktimeout[m[K, [&engine](){
+      |                                      [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

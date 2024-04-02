@@ -1,0 +1,28 @@
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/publisher_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/string.hpp: No such file or directory
+    2 | #include [01;31m[K"example_interfaces/msg/string.hpp"[m[K  // Fixed header include
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:76: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/publisher_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid manage_slider(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:30:18:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid update_slider()[m[K’
+   30 |     [01;31m[Kupdate_slider(msg)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:26:6:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 | void [01;36m[Kupdate_slider[m[K();
+      |      [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:52:45:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KQVariant::QVariant(T) [with T = const QString*; typename std::enable_if<disjunction_v<std::is_pointer<_Tp>, std::is_member_pointer<_Tp> >, bool>::type <anonymous> = false][m[K’
+   52 |     [01;31m[Kengine.rootContext()->setContextProperty("Constants", &Constants::backgroundColor)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qlocale.h:7[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:11[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qvariant.h:314:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  314 |     [01;36m[KQVariant[m[K(T) = delete;
+      |     [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

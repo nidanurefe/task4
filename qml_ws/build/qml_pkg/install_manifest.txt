@@ -1,0 +1,15 @@
+/home/nida/Desktop/qml_ws/install/qml_pkg/lib/qml_pkg/main
+/home/nida/Desktop/qml_ws/install/qml_pkg/lib/qml_pkg/deneme
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/package_run_dependencies/qml_pkg
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/parent_prefix_path/qml_pkg
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/environment/ament_prefix_path.dsv
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/environment/path.dsv
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.bash
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.sh
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.zsh
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/local_setup.dsv
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/package.dsv
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/ament_index/resource_index/packages/qml_pkg
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/cmake/qml_pkgConfig.cmake
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/cmake/qml_pkgConfig-version.cmake
+/home/nida/Desktop/qml_ws/install/qml_pkg/share/qml_pkg/package.xml

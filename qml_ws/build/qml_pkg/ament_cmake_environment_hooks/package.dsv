@@ -1,0 +1,4 @@
+source;share/qml_pkg/local_setup.bash
+source;share/qml_pkg/local_setup.dsv
+source;share/qml_pkg/local_setup.sh
+source;share/qml_pkg/local_setup.zsh

@@ -1,0 +1,55 @@
+[ 50%] Built target deneme
+[ 75%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In function ‘[01m[Kvoid update_slider(QObject*)[m[K’:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:24:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQString::number(std_msgs::msg::String_<std::allocator<void> >::_data_type&)[m[K’
+   24 |         obj->setProperty("value", [01;31m[KQString::number(SLIDER.data)[m[K);
+      |                                   [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qcoreapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/qguiapplication.h:8[m[K,
+                 from [01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtGui/QGuiApplication:1[m[K,
+                 from [01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:1[m[K:
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:686:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QString QString::number(int, int)[m[K’
+  686 |     static QString [01;36m[Knumber[m[K(int, int base=10);
+      |                    [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:686:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kint[m[K’
+  686 |     static QString number([01;36m[Kint[m[K, int base=10);
+      |                           [01;36m[K^~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:687:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QString QString::number(uint, int)[m[K’
+  687 |     static QString [01;36m[Knumber[m[K(uint, int base=10);
+      |                    [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:687:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kuint[m[K’ {aka ‘[01m[Kunsigned int[m[K’}
+  687 |     static QString number([01;36m[Kuint[m[K, int base=10);
+      |                           [01;36m[K^~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:688:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QString QString::number(long int, int)[m[K’
+  688 |     static QString [01;36m[Knumber[m[K(long, int base=10);
+      |                    [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:688:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Klong int[m[K’
+  688 |     static QString number([01;36m[Klong[m[K, int base=10);
+      |                           [01;36m[K^~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:689:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QString QString::number(ulong, int)[m[K’
+  689 |     static QString [01;36m[Knumber[m[K(ulong, int base=10);
+      |                    [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:689:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kulong[m[K’ {aka ‘[01m[Klong unsigned int[m[K’}
+  689 |     static QString number([01;36m[Kulong[m[K, int base=10);
+      |                           [01;36m[K^~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:690:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QString QString::number(qlonglong, int)[m[K’
+  690 |     static QString [01;36m[Knumber[m[K(qlonglong, int base=10);
+      |                    [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:690:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kqlonglong[m[K’ {aka ‘[01m[Klong long int[m[K’}
+  690 |     static QString number([01;36m[Kqlonglong[m[K, int base=10);
+      |                           [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:691:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QString QString::number(qulonglong, int)[m[K’
+  691 |     static QString [01;36m[Knumber[m[K(qulonglong, int base=10);
+      |                    [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:691:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kqulonglong[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’}
+  691 |     static QString number([01;36m[Kqulonglong[m[K, int base=10);
+      |                           [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:692:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic QString QString::number(double, char, int)[m[K’
+  692 |     static QString [01;36m[Knumber[m[K(double, char format='g', int precision=6);
+      |                    [01;36m[K^~~~~~[m[K
+[01m[K/home/nida/Qt/6.6.3/gcc_64/include/QtCore/qstring.h:692:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kdouble[m[K’
+  692 |     static QString number([01;36m[Kdouble[m[K, char format='g', int precision=6);
+      |                           [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

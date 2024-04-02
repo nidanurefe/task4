@@ -1,0 +1,2 @@
+Invoking command in '/home/nida/Desktop/qml_ws/build/qml_pkg': /home/nida/.local/bin/cmake --build /home/nida/Desktop/qml_ws/build/qml_pkg -- -j8 -l8
+Invoked command in '/home/nida/Desktop/qml_ws/build/qml_pkg' returned '2': /home/nida/.local/bin/cmake --build /home/nida/Desktop/qml_ws/build/qml_pkg -- -j8 -l8

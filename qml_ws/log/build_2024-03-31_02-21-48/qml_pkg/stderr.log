@@ -1,0 +1,31 @@
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:[m[K In lambda function:
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:53:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ is not captured
+   53 |     QGuiApplication app([01;31m[Kargc[m[K, argv);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:48:34:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   48 |     std::thread rosSpinner([&node[01;36m[K][m[K(){
+      |                                  [01;36m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:39:14:[m[K [01;36m[Knote: [m[K‘[01m[Kint argc[m[K’ declared here
+   39 | int main([01;36m[Kint argc[m[K, char *argv[]) {
+      |          [01;36m[K~~~~^~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:53:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ is not captured
+   53 |     QGuiApplication app(argc, [01;31m[Kargv[m[K);
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:48:34:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   48 |     std::thread rosSpinner([&node[01;36m[K][m[K(){
+      |                                  [01;36m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:39:26:[m[K [01;36m[Knote: [m[K‘[01m[Kchar** argv[m[K’ declared here
+   39 | int main(int argc, [01;36m[Kchar *argv[][m[K) {
+      |                    [01;36m[K~~~~~~^~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:76:5:[m[K [01;31m[Kerror: [m[K‘[01m[KrosSpinner[m[K’ is not captured
+   76 |     [01;31m[KrosSpinner[m[K.join();
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:48:34:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   48 |     std::thread rosSpinner([&node[01;36m[K][m[K(){
+      |                                  [01;36m[K^[m[K
+[01m[K/home/nida/Desktop/qml_ws/src/qml_pkg/src/main.cpp:48:17:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::thread rosSpinner[m[K’ declared here
+   48 |     std::thread [01;36m[KrosSpinner[m[K([&node](){
+      |                 [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/main.dir/build.make:76: CMakeFiles/main.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
